@@ -1,0 +1,75 @@
+For Graph G1:
+
+Top 10 pages with maximum number of in-links:
+
+international_standard_book_number - 241
+tropical_cyclone - 220
+integrated_authority_file - 202
+tornado - 166
+national_diet_library - 153
+cyclone - 147
+extratropical_cyclone - 147
+thunderstorm - 143
+meteorology - 125
+storm_surge - 124
+
+Top 10 pages with highest PageRank:
+
+integrated_authority_file - 0.0237712794888
+national_diet_library - 0.0201959561865
+international_standard_book_number - 0.0200816294319
+earth - 0.00637183599136
+temperature - 0.00611254220331
+tropical_cyclone - 0.00580900759748
+meteorology - 0.00574840271817
+india - 0.00555563547849
+tornado - 0.00525705213052
+united_kingdom - 0.00516635354453
+
+
+Few pages like "tropical_cyclone", "integrated_authority_file", "international_standard_book_number", "tornado" , "national_diet_library" , "meteorology" 
+among the top 10 pages have high Page Rank and have high number of incoming links. These are the kind of pages which have good quality incoming links 
+because of which their page rank is high as well.
+Though few pages like "cyclone" , "extratropical_cyclone", "thunderstorm" and "storm_surge" have high number of in-links, 
+their page ranks are still very low as their incoming links are not popular enough on the web, to have a higher rank.
+
+Similarly, there are also pages with high page rank, but do not have high number of incoming links as it depends on the popularity/quality of incoming links. 
+Even though they have lesser incoming links than other pages, their incoming links might have higher page rank.
+The Page Rank of incoming links also plays a role in determining the Page Rank of a particular page.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+For Graph G2:
+
+Top 10 pages with maximum number of in-links:
+
+--france - 297
+--europe - 276
+--united_kingdom - 260
+--italy - 258
+--united_states - 254
+--russia - 249
+--germany - 247
+--world_war_ii - 230
+--spain - 225
+poland - 221
+
+Top 10 pages with highest PageRank:
+
+europe - 0.00628594172063
+united_states - 0.00627205570605
+france - 0.00601298594879
+united_kingdom - 0.00552199523977
+germany - 0.00542343186074
+russia - 0.00514827638344
+world_war_ii - 0.0049504809105
+italy - 0.00475485710814
+spain - 0.00456983776377
+european_union - 0.00451910900054
+
+
+In this case maximum number of pages which have high number of incoming links are ranked high by the PageRank algorithm as well. 
+As we can see the Doc Ids of the pages, "france" , "europe" , "united_kingdom", "italy" , "united_states" , "russia" , "germany" , "world_war_ii" and "Spain" 
+are very popular, and will be linked from many websites. Therefore, these pages have a high Page rank.
+
+All in all, the number of incoming links and its popularity/quality determines the Page rank of a page. Also, the page rank of the incoming links also matters.

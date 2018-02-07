@@ -1,0 +1,24 @@
+A brief report on simple statistics of G1 and G2:
+
+G1:
+
+G1 is a graph generated based on the 1000 URLs obtained from running a BFS crawler.
+This Graph consists of DOC Ids of each page crawled (key) and DOC Ids of incoming links of that page (values).
+
+Size of the corpus (pages) = 1000
+No. of Pages with no in-links (sources) = 0
+Proportion of pages with no in-links = 0
+No. of Pages with no out-links (sinks) = 331
+Proportion of pages with no out-links = 331/1000
+
+
+G2:
+
+G2 is a graph generated based on the 1000 URLs obtained from running a DFS crawler.
+This Graph consists of DOC Ids of each page crawled (key) and DOC Ids of incoming links of that page (values).
+
+Size of the corpus (pages) = 1000
+No. of Pages with no in-links (sources) = 0
+Proportion of pages with no in-links = 0
+No. of Pages with no out-links (sinks) = 188
+Proportion of pages with no out-links = 188/1000	  
